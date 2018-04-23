@@ -71,7 +71,7 @@
     "seedDataJSON": {
     },
     "ssm": false,
-    "timeTracking": true,
+    "timeTracking": false,
     "trackingCustomData": {
     },
     "visualforcePagesAvailableInPreview": {
