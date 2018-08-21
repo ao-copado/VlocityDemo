@@ -351,6 +351,15 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>SAP_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;{!Environment.SAP_URL}&apos; + Id, &apos;{!Environment.SAP_URL}&apos; + Id)</formula>
+        <label>SAP Account</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
     </fields>
     <fields>
