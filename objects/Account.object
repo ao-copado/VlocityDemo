@@ -353,7 +353,7 @@
     <fields>
         <fullName>SAP_Account__c</fullName>
         <externalId>false</externalId>
-        <formula>HYPERLINK(&apos;{!Environment.SAP_URL}&apos; + Id, &apos;{!Environment.SAP_URL}&apos; + Id)</formula>
+        <formula>HYPERLINK(&apos;{!Environment.SAP_URL}/&apos; + Id, &apos;{!Environment.SAP_URL}/&apos; + Id)</formula>
         <label>SAP Account</label>
         <required>false</required>
         <type>Text</type>
